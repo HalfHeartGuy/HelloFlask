@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Start.html</title>
+</head>
+<body>
+    <h1>Here are our different version of {{gameName}}:</h1>
+
+    {% for version in gameVersions%}
+        <p>{{ version }}</p>
+    {% endfor %}
+</body>
+</html>
