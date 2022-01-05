@@ -1,0 +1,10 @@
+{% extends "layouts/main.html" %}
+
+
+{% block content %}
+     <p> Der Gamename ist {{ gameName }}</p>
+    {% for version in gameVersions %}
+            <p>{{ version }}</p>
+    {% endfor %}
+
+{% endblock %}
